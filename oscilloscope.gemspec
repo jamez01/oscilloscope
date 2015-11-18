@@ -1,6 +1,6 @@
 Gem::Specification.new do |g|
   g.name = "oscilloscope"
-  g.version = "0.1.0"
+  g.version = "0.1.1"
   g.date = "2015-11-18"
   g.summary = "Osilloscope"
   g.description = "A poor man oscilloscope using ruby and an arduino."

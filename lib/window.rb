@@ -16,8 +16,8 @@ class ScopeWindow < Gosu::Window
     @center_line = CenterLine.new(self)
     @minmaxtext = MinMaxText.new(self)
     @right_line = RightLine.new(self)
-    # @ar = ArduinoReader.new(self)
-    @ar = FakeArduinoReader.new(self)
+    @ar = ArduinoReader.new(self)
+    # @ar = FakeArduinoReader.new(self)
     AnalogInput[0].visible = true
   end
 
