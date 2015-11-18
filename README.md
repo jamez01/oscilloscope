@@ -1,9 +1,9 @@
-# Oscilloscope
+# aRduinoScope
 A poor-man's oscilloscope using an Arduino and Ruby
 
 This project works as a **very** low resolution oscilloscope.
 
-![Screen Shot](/doc/screen_shot.png?raw=true "Optional Title")
+![Screen Shot](/doc/screen_shot.png?raw=true "Oscilloscope Screenshot")
 
 ### Pros
 * Cheap! $20 for an extra Arduino and you're up and running.
@@ -15,7 +15,7 @@ This project works as a **very** low resolution oscilloscope.
 * Low voltage - Do not supply more then 5 volts to the arduino.
 
 
-## Using Oscilliscope
+## Using aRduinoScope
 
 ### The Arduino
 1. Use the Arduino IDE to install the StandardFirmata example onto the arduino.
@@ -33,10 +33,11 @@ Do **NOT** connect more then 5 volts directly to any of the arduino inputs.
 
 
 ## Install
-1. Clone the repository
-2. Install required libs
+1. Install required libs
  * Project uses [gosu](https://github.com/gosu/gosu) for the GUI.  See Gosu's documentation for [Mac OSX](https://github.com/gosu/gosu/wiki/Getting-Started-on-OS-X), [Linux](https://github.com/gosu/gosu/wiki/Getting-Started-on-Linux), or [Windows](https://github.com/gosu/gosu/wiki/Getting-Started-on-Windows)
-3. Run project `ruby oscilloscope.rb`
+2. Run project `ruby oscilloscope.rb`
+3. run `gem install oscilloscope`
+4. run `oscilloscope`
 
 ## Contribute
 1. Fork
